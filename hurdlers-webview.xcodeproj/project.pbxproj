@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84838B12AB88B1600FC0E7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838B02AB88B1600FC0E7B /* AppDelegate.m */; };
+		A84838B42AB88B1600FC0E7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838B32AB88B1600FC0E7B /* SceneDelegate.m */; };
+		A84838B72AB88B1600FC0E7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838B62AB88B1600FC0E7B /* ViewController.m */; };
+		A84838BA2AB88B1600FC0E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84838B82AB88B1600FC0E7B /* Main.storyboard */; };
+		A84838BC2AB88B1700FC0E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84838BB2AB88B1700FC0E7B /* Assets.xcassets */; };
+		A84838BF2AB88B1700FC0E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84838BD2AB88B1700FC0E7B /* LaunchScreen.storyboard */; };
+		A84838C22AB88B1700FC0E7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838C12AB88B1700FC0E7B /* main.m */; };
+		A84838CC2AB88B1700FC0E7B /* hurdlers_webviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838CB2AB88B1700FC0E7B /* hurdlers_webviewTests.m */; };
+		A84838D62AB88B1700FC0E7B /* hurdlers_webviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838D52AB88B1700FC0E7B /* hurdlers_webviewUITests.m */; };
+		A84838D82AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838D72AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84838C82AB88B1700FC0E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84838A42AB88B1600FC0E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84838AB2AB88B1600FC0E7B;
+			remoteInfo = "hurdlers-webview";
+		};
+		A84838D22AB88B1700FC0E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84838A42AB88B1600FC0E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84838AB2AB88B1600FC0E7B;
+			remoteInfo = "hurdlers-webview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A84838AC2AB88B1600FC0E7B /* hurdlers-webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hurdlers-webview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84838AF2AB88B1600FC0E7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A84838B02AB88B1600FC0E7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A84838B22AB88B1600FC0E7B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A84838B32AB88B1600FC0E7B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A84838B52AB88B1600FC0E7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A84838B62AB88B1600FC0E7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A84838B92AB88B1600FC0E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A84838BB2AB88B1700FC0E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84838BE2AB88B1700FC0E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A84838C02AB88B1700FC0E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84838C12AB88B1700FC0E7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A84838C72AB88B1700FC0E7B /* hurdlers-webviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hurdlers-webviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84838CB2AB88B1700FC0E7B /* hurdlers_webviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hurdlers_webviewTests.m; sourceTree = "<group>"; };
+		A84838D12AB88B1700FC0E7B /* hurdlers-webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hurdlers-webviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84838D52AB88B1700FC0E7B /* hurdlers_webviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hurdlers_webviewUITests.m; sourceTree = "<group>"; };
+		A84838D72AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hurdlers_webviewUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84838A92AB88B1600FC0E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84838C42AB88B1700FC0E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84838CE2AB88B1700FC0E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84838A32AB88B1600FC0E7B = {
+			isa = PBXGroup;
+			children = (
+				A84838AE2AB88B1600FC0E7B /* hurdlers-webview */,
+				A84838CA2AB88B1700FC0E7B /* hurdlers-webviewTests */,
+				A84838D42AB88B1700FC0E7B /* hurdlers-webviewUITests */,
+				A84838AD2AB88B1600FC0E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84838AD2AB88B1600FC0E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84838AC2AB88B1600FC0E7B /* hurdlers-webview.app */,
+				A84838C72AB88B1700FC0E7B /* hurdlers-webviewTests.xctest */,
+				A84838D12AB88B1700FC0E7B /* hurdlers-webviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84838AE2AB88B1600FC0E7B /* hurdlers-webview */ = {
+			isa = PBXGroup;
+			children = (
+				A84838AF2AB88B1600FC0E7B /* AppDelegate.h */,
+				A84838B02AB88B1600FC0E7B /* AppDelegate.m */,
+				A84838B22AB88B1600FC0E7B /* SceneDelegate.h */,
+				A84838B32AB88B1600FC0E7B /* SceneDelegate.m */,
+				A84838B52AB88B1600FC0E7B /* ViewController.h */,
+				A84838B62AB88B1600FC0E7B /* ViewController.m */,
+				A84838B82AB88B1600FC0E7B /* Main.storyboard */,
+				A84838BB2AB88B1700FC0E7B /* Assets.xcassets */,
+				A84838BD2AB88B1700FC0E7B /* LaunchScreen.storyboard */,
+				A84838C02AB88B1700FC0E7B /* Info.plist */,
+				A84838C12AB88B1700FC0E7B /* main.m */,
+			);
+			path = "hurdlers-webview";
+			sourceTree = "<group>";
+		};
+		A84838CA2AB88B1700FC0E7B /* hurdlers-webviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84838CB2AB88B1700FC0E7B /* hurdlers_webviewTests.m */,
+			);
+			path = "hurdlers-webviewTests";
+			sourceTree = "<group>";
+		};
+		A84838D42AB88B1700FC0E7B /* hurdlers-webviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A84838D52AB88B1700FC0E7B /* hurdlers_webviewUITests.m */,
+				A84838D72AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m */,
+			);
+			path = "hurdlers-webviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84838AB2AB88B1600FC0E7B /* hurdlers-webview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84838DB2AB88B1700FC0E7B /* Build configuration list for PBXNativeTarget "hurdlers-webview" */;
+			buildPhases = (
+				A84838A82AB88B1600FC0E7B /* Sources */,
+				A84838A92AB88B1600FC0E7B /* Frameworks */,
+				A84838AA2AB88B1600FC0E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hurdlers-webview";
+			productName = "hurdlers-webview";
+			productReference = A84838AC2AB88B1600FC0E7B /* hurdlers-webview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84838C62AB88B1700FC0E7B /* hurdlers-webviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84838DE2AB88B1700FC0E7B /* Build configuration list for PBXNativeTarget "hurdlers-webviewTests" */;
+			buildPhases = (
+				A84838C32AB88B1700FC0E7B /* Sources */,
+				A84838C42AB88B1700FC0E7B /* Frameworks */,
+				A84838C52AB88B1700FC0E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84838C92AB88B1700FC0E7B /* PBXTargetDependency */,
+			);
+			name = "hurdlers-webviewTests";
+			productName = "hurdlers-webviewTests";
+			productReference = A84838C72AB88B1700FC0E7B /* hurdlers-webviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A84838D02AB88B1700FC0E7B /* hurdlers-webviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84838E12AB88B1700FC0E7B /* Build configuration list for PBXNativeTarget "hurdlers-webviewUITests" */;
+			buildPhases = (
+				A84838CD2AB88B1700FC0E7B /* Sources */,
+				A84838CE2AB88B1700FC0E7B /* Frameworks */,
+				A84838CF2AB88B1700FC0E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84838D32AB88B1700FC0E7B /* PBXTargetDependency */,
+			);
+			name = "hurdlers-webviewUITests";
+			productName = "hurdlers-webviewUITests";
+			productReference = A84838D12AB88B1700FC0E7B /* hurdlers-webviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84838A42AB88B1600FC0E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A84838AB2AB88B1600FC0E7B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A84838C62AB88B1700FC0E7B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A84838AB2AB88B1600FC0E7B;
+					};
+					A84838D02AB88B1700FC0E7B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A84838AB2AB88B1600FC0E7B;
+					};
+				};
+			};
+			buildConfigurationList = A84838A72AB88B1600FC0E7B /* Build configuration list for PBXProject "hurdlers-webview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84838A32AB88B1600FC0E7B;
+			productRefGroup = A84838AD2AB88B1600FC0E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84838AB2AB88B1600FC0E7B /* hurdlers-webview */,
+				A84838C62AB88B1700FC0E7B /* hurdlers-webviewTests */,
+				A84838D02AB88B1700FC0E7B /* hurdlers-webviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84838AA2AB88B1600FC0E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84838BF2AB88B1700FC0E7B /* LaunchScreen.storyboard in Resources */,
+				A84838BC2AB88B1700FC0E7B /* Assets.xcassets in Resources */,
+				A84838BA2AB88B1600FC0E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84838C52AB88B1700FC0E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84838CF2AB88B1700FC0E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84838A82AB88B1600FC0E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84838B72AB88B1600FC0E7B /* ViewController.m in Sources */,
+				A84838B12AB88B1600FC0E7B /* AppDelegate.m in Sources */,
+				A84838C22AB88B1700FC0E7B /* main.m in Sources */,
+				A84838B42AB88B1600FC0E7B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84838C32AB88B1700FC0E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84838CC2AB88B1700FC0E7B /* hurdlers_webviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84838CD2AB88B1700FC0E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84838D62AB88B1700FC0E7B /* hurdlers_webviewUITests.m in Sources */,
+				A84838D82AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84838C92AB88B1700FC0E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84838AB2AB88B1600FC0E7B /* hurdlers-webview */;
+			targetProxy = A84838C82AB88B1700FC0E7B /* PBXContainerItemProxy */;
+		};
+		A84838D32AB88B1700FC0E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84838AB2AB88B1600FC0E7B /* hurdlers-webview */;
+			targetProxy = A84838D22AB88B1700FC0E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84838B82AB88B1600FC0E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84838B92AB88B1600FC0E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84838BD2AB88B1700FC0E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84838BE2AB88B1700FC0E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84838D92AB88B1700FC0E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A84838DA2AB88B1700FC0E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84838DC2AB88B1700FC0E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62BMBHJVR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hurdlers-webview/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.hurdlers.hurdlers-webview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84838DD2AB88B1700FC0E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62BMBHJVR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hurdlers-webview/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.hurdlers.hurdlers-webview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A84838DF2AB88B1700FC0E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62BMBHJVR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.hurdlers.hurdlers-webviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hurdlers-webview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hurdlers-webview";
+			};
+			name = Debug;
+		};
+		A84838E02AB88B1700FC0E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62BMBHJVR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.hurdlers.hurdlers-webviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hurdlers-webview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hurdlers-webview";
+			};
+			name = Release;
+		};
+		A84838E22AB88B1700FC0E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62BMBHJVR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.hurdlers.hurdlers-webviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hurdlers-webview";
+			};
+			name = Debug;
+		};
+		A84838E32AB88B1700FC0E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62BMBHJVR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "team.hurdlers.hurdlers-webviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hurdlers-webview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84838A72AB88B1600FC0E7B /* Build configuration list for PBXProject "hurdlers-webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84838D92AB88B1700FC0E7B /* Debug */,
+				A84838DA2AB88B1700FC0E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84838DB2AB88B1700FC0E7B /* Build configuration list for PBXNativeTarget "hurdlers-webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84838DC2AB88B1700FC0E7B /* Debug */,
+				A84838DD2AB88B1700FC0E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84838DE2AB88B1700FC0E7B /* Build configuration list for PBXNativeTarget "hurdlers-webviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84838DF2AB88B1700FC0E7B /* Debug */,
+				A84838E02AB88B1700FC0E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84838E12AB88B1700FC0E7B /* Build configuration list for PBXNativeTarget "hurdlers-webviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84838E22AB88B1700FC0E7B /* Debug */,
+				A84838E32AB88B1700FC0E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A84838A42AB88B1600FC0E7B /* Project object */;
+}
