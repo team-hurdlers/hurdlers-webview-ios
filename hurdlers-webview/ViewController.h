@@ -6,9 +6,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
+#import <Firebase.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <WKNavigationDelegate>
 
+@property (strong, nonatomic) WKWebView *webView;
+
+- (NSMutableDictionary *)iterateJsonAndAddToDictionary:(NSDictionary *)jsonObject;
+- (NSDictionary *)googleAnalyticsItemParamToDictionary:(NSArray *)itemsArray;
 
 @end
 

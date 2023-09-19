@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDkeU9d2J7mioiqpF3BclQ3DsdcQod2ys8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>740737976005</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>team.hurdlers.hurdlers-webview</string>
+	<key>PROJECT_ID</key>
+	<string>hurdlers-webview</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hurdlers-webview.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:740737976005:ios:2df58442f4617ddfcc12ac</string>
+</dict>
+</plist>

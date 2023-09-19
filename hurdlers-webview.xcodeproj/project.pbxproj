@@ -17,6 +17,11 @@
 		A84838CC2AB88B1700FC0E7B /* hurdlers_webviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838CB2AB88B1700FC0E7B /* hurdlers_webviewTests.m */; };
 		A84838D62AB88B1700FC0E7B /* hurdlers_webviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838D52AB88B1700FC0E7B /* hurdlers_webviewUITests.m */; };
 		A84838D82AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84838D72AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m */; };
+		A84838E62AB88B5300FC0E7B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84838E52AB88B5300FC0E7B /* WebKit.framework */; };
+		A84838E82AB88CF000FC0E7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A84838E72AB88CF000FC0E7B /* GoogleService-Info.plist */; };
+		A84838EB2AB88D5000FC0E7B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A84838EA2AB88D5000FC0E7B /* FirebaseAnalytics */; };
+		A84838ED2AB88D5000FC0E7B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A84838EC2AB88D5000FC0E7B /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A84838EF2AB88D5000FC0E7B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A84838EE2AB88D5000FC0E7B /* FirebaseCrashlytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,8 @@
 		A84838D12AB88B1700FC0E7B /* hurdlers-webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hurdlers-webviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84838D52AB88B1700FC0E7B /* hurdlers_webviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hurdlers_webviewUITests.m; sourceTree = "<group>"; };
 		A84838D72AB88B1700FC0E7B /* hurdlers_webviewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hurdlers_webviewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A84838E52AB88B5300FC0E7B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A84838E72AB88CF000FC0E7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84838EB2AB88D5000FC0E7B /* FirebaseAnalytics in Frameworks */,
+				A84838EF2AB88D5000FC0E7B /* FirebaseCrashlytics in Frameworks */,
+				A84838ED2AB88D5000FC0E7B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				A84838E62AB88B5300FC0E7B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +99,7 @@
 				A84838CA2AB88B1700FC0E7B /* hurdlers-webviewTests */,
 				A84838D42AB88B1700FC0E7B /* hurdlers-webviewUITests */,
 				A84838AD2AB88B1600FC0E7B /* Products */,
+				A84838E42AB88B5300FC0E7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +116,7 @@
 		A84838AE2AB88B1600FC0E7B /* hurdlers-webview */ = {
 			isa = PBXGroup;
 			children = (
+				A84838E72AB88CF000FC0E7B /* GoogleService-Info.plist */,
 				A84838AF2AB88B1600FC0E7B /* AppDelegate.h */,
 				A84838B02AB88B1600FC0E7B /* AppDelegate.m */,
 				A84838B22AB88B1600FC0E7B /* SceneDelegate.h */,
@@ -136,6 +149,14 @@
 			path = "hurdlers-webviewUITests";
 			sourceTree = "<group>";
 		};
+		A84838E42AB88B5300FC0E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84838E52AB88B5300FC0E7B /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +173,11 @@
 			dependencies = (
 			);
 			name = "hurdlers-webview";
+			packageProductDependencies = (
+				A84838EA2AB88D5000FC0E7B /* FirebaseAnalytics */,
+				A84838EC2AB88D5000FC0E7B /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A84838EE2AB88D5000FC0E7B /* FirebaseCrashlytics */,
+			);
 			productName = "hurdlers-webview";
 			productReference = A84838AC2AB88B1600FC0E7B /* hurdlers-webview.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +249,9 @@
 				Base,
 			);
 			mainGroup = A84838A32AB88B1600FC0E7B;
+			packageReferences = (
+				A84838E92AB88D5000FC0E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A84838AD2AB88B1600FC0E7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84838BF2AB88B1700FC0E7B /* LaunchScreen.storyboard in Resources */,
+				A84838E82AB88CF000FC0E7B /* GoogleService-Info.plist in Resources */,
 				A84838BC2AB88B1700FC0E7B /* Assets.xcassets in Resources */,
 				A84838BA2AB88B1600FC0E7B /* Main.storyboard in Resources */,
 			);
@@ -450,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,6 +629,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A84838E92AB88D5000FC0E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A84838EA2AB88D5000FC0E7B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84838E92AB88D5000FC0E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A84838EC2AB88D5000FC0E7B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84838E92AB88D5000FC0E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A84838EE2AB88D5000FC0E7B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84838E92AB88D5000FC0E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A84838A42AB88B1600FC0E7B /* Project object */;
 }
