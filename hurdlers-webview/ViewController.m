@@ -79,10 +79,14 @@
         @"item_id": kFIRParameterItemID,
         @"item_name": kFIRParameterItemName,
         @"item_category": kFIRParameterItemCategory,
+        @"item_category2": kFIRParameterItemCategory2,
+        @"item_category3": kFIRParameterItemCategory3,
+        @"item_category4": kFIRParameterItemCategory4,
         @"item_variant": kFIRParameterItemVariant,
         @"item_brand": kFIRParameterItemBrand,
         @"price": kFIRParameterPrice,
-        @"quantity": kFIRParameterQuantity
+        @"quantity": kFIRParameterQuantity,
+        @"discount": kFIRParameterDiscount
     };
     
     for (id itemObj in itemsArray) {
