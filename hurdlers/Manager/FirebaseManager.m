@@ -1,38 +1,29 @@
-//
-//  ViewController.m
-//  hurdlers-webview
-//
-//  Created by 유준혁 on 2023/09/18.
-//
+#import "FirebaseManager.h"
+#import <Firebase.h>
 
-#import "ViewController.h"
+@implementation FirebaseManager
 
-@interface ViewController ()
-
-@end
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [FIRApp configure];
-
-    self.webView = [[WKWebView alloc] initWithFrame:self.view.frame];
-    self.webView.navigationDelegate = self;
-    [self.view addSubview:self.webView];
-    [self.webView.configuration.userContentController addScriptMessageHandler:self name:@"firebase"];
-    
-    NSURL *url = [NSURL URLWithString:@"http://118.67.142.80"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [self.webView loadRequest:request];
++ (instancetype)sharedManager {
+    static FirebaseManager *sharedManager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedManager = [[self alloc] init];
+    });
+    return sharedManager;
 }
 
-- (void)userContentController:(WKUserContentController *)userContentController
-      didReceiveScriptMessage:(WKScriptMessage *)message {
+- (void)configure {
+    [FIRApp configure];
+}
+
+- (void)handleReceivedScriptMessage:(WKScriptMessage *)message {
     if ([message.body[@"command"] isEqual:@"setUserProperty"]) {
         [FIRAnalytics setUserPropertyString:message.body[@"value"] forName:message.body[@"name"]];
     } else if ([message.body[@"command"] isEqual:@"logEvent"]) {
         NSDictionary *params = [self iterateJsonAndAddToDictionary:message.body[@"parameters"]];
         [FIRAnalytics logEventWithName:message.body[@"name"] parameters:params];
+    } else if ([message.body[@"command"] isEqual:@"setUserId"]) {
+        [FIRAnalytics setUserID:message.body[@"value"]];
     }
 }
 
@@ -115,6 +106,6 @@
     return [items copy];
 }
 
+// Firebase와 관련된 나머지 메서드들...
+
 @end
-
-
